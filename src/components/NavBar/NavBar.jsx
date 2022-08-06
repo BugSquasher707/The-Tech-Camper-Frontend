@@ -10,7 +10,7 @@ const Navbar = () => {
   const { state, dispatch } = useContext(UserContext);
 
   const handleLogout = () => {
-    fetch("http://localhost:6000/auth/logout", {
+    fetch("/auth/logout", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

@@ -85,7 +85,6 @@ const CreateReview = () => {
               });
 
               setTimeout(() => {
-                localStorage.removeItem("bootcampId");
                 localStorage.removeItem("courseId");
                 localStorage.removeItem("reviewId");
 
